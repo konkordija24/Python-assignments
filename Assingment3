@@ -1,0 +1,11 @@
+Homework Assignment #3: "If" Statements
+
+def equality(x,y,z):
+	if str(x) == str(y) or int(x) == int(y):
+		return True
+	 elif str(x) == str(z) or int(x) == int(z):
+	 	return True
+	  elif str(y) == str(z) or int(y) == int(z):
+	  	return True
+	   else:
+	   	return False
